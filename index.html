@@ -1,414 +1,623 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     <!--     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Vedic Life</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div class="topheader">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-9 col-4">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <div class="container-fluid">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                        </li>
-                                        <!-- <li class="nav-item">
+      <div class="topheader">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-lg-9 col-4">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link active"
+                          aria-current="page"
+                          href="index.html"
+                          >Home</a
+                        >
+                      </li>
+                      <!-- <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                           </li> -->
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="teachers.html">Meet The Teacher</a>
-                                                <a class="dropdown-item" href="inspiration.html">Our Inspiration</a>
-
-                                            </div>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#courses">Courses</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#Testimonial">Testimonial</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#contactus">Contact</a>
-                                        </li>
-                                    </ul>
-                                    <form class="d-flex">
-                                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                        <button class="search"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-8">
-                        <div class="logo">
-                            <a href="index.html"><img src="img/logo1.png" alt=""></a>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          >About</a
+                        >
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <a class="dropdown-item" href="teachers.html"
+                            >Meet The Teacher</a
+                          >
+                          <a class="dropdown-item" href="inspiration.html"
+                            >Our Inspiration</a
+                          >
                         </div>
-                    </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#courses">Courses</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Testimonial">Testimonial</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contactus">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </button>
+                    </form>
+                  </div>
                 </div>
+              </nav>
             </div>
+            <div class="col-lg-3 col-md-6 col-8">
+              <div class="logo">
+                <a href="index.html"><img src="img/logo1.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
     <div class="heroBg">
-        <div class="overlay">
-            <div class="overlay_content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-5 col-12">
-                            <div class="heroText">
-                                <h1 class="title"><span>Meditation</span> would never be so easy again</h1>
-                                <p>Satisfy your spiritual quest and simultaneously master the worldly challenges of your work and family</p>
-                                <div class="rdmr">
-                                    <a href="meditation.html">Learn</a>
-                                </div>
-                                <div class="socilIcon">
-                                    <ul>
-                                        <li>
-                                            <a href="tel:08743915439"><img src="img/icons/call.png" class="img-fluid" alt=""></a>
-                                        </li>
-                                        <li>
-                                            <a href="mailto:vediclife1008@gmail.com"><img src="img/icons/envelop.png" class="img-fluid" alt=""></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.google.com/maps?ll=28.896163,76.603343&z=15&t=m&hl=en&gl=IN&mapclient=embed&cid=12394404980430862319" target="_blank"><img src="img/icons/location.png" class="img-fluid" alt=""></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-8 col-md-7 col-12">
-                            <div class="heroImg">
-                                <img src="img/heroImg.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
+      <div class="overlay">
+        <div class="overlay_content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-5 col-12">
+                <div class="heroText">
+                  <h1 class="title">
+                    <span>Meditation</span> would never be hard again
+                  </h1>
+                  <p>
+                    Satisfy your spiritual quest and simultaneously master the
+                    worldly challenges of your work and family
+                  </p>
+                  <div class="rdmr">
+                    <a href="meditation.html">Learn</a>
+                  </div>
+                  <div class="socilIcon">
+                    <ul>
+                      <li>
+                        <a href="tel:08743915439"
+                          ><img
+                            src="img/icons/call.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </li>
+                      <li>
+                        <a href="mailto:vediclife1008@gmail.com"
+                          ><img
+                            src="img/icons/envelop.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.google.com/maps?ll=28.896163,76.603343&z=15&t=m&hl=en&gl=IN&mapclient=embed&cid=12394404980430862319"
+                          target="_blank"
+                          ><img
+                            src="img/icons/location.png"
+                            class="img-fluid"
+                            alt=""
+                        /></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+              </div>
+              <div class="col-lg-8 col-md-7 col-12">
+                <div class="heroImg">
+                  <img src="img/heroImg.png" class="img-fluid" alt="" />
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <section class="space" id="benifits">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section_heading">
-                        <h2>Proven Benefits</h2>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section_heading">
+              <h2>Proven Benefits</h2>
             </div>
-            <div class="row mt-5">
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"> <img src="img/icons/focus.gif" alt="Better Focus">
-                        <div class="caption">
-                            <h6 class="caption-title text-dark">Better focus
-                            </h6>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"> <img src="img/icons/clearity-of mind.gif" alt="Mind">
-                        <div class="caption">
-                            <h6 class="caption-title text-dark">Clarity Of Mind
-                            </h6>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"> <img src="img/icons/creative.gif" alt="Enhanced Creativity">
-                        <div class="caption">
-                            <h6 class="caption-title text-dark">Enhanced Creativity
-                            </h6>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"> <img src="img/icons/world.gif" alt="Worldly Success">
-                        <div class="caption">
-                            <h6 class="caption-title text-dark">Worldly Success
-                            </h6>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"> <img src="img/icons/calmness.gif" alt="Calmness">
-                        <div class="caption">
-                            <h6 class="caption-title text-dark">Deep inner calmness
-                            </h6>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail"> <img src="img/icons/contentment.gif" alt="Contentment">
-                        <div class="caption">
-                            <h6 class="caption-title text-dark">More Contentment
-                            </h6>
-
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-12">
-                    <div class="knmrBtn">
-                        <a href="proven-benefits.html">Know More</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row mt-5">
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/icons/focus.gif" alt="Better Focus" />
+              <div class="caption">
+                <h6 class="caption-title text-dark">Better focus</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/icons/clearity-of mind.gif" alt="Mind" />
+              <div class="caption">
+                <h6 class="caption-title text-dark">Clarity Of Mind</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/icons/creative.gif" alt="Enhanced Creativity" />
+              <div class="caption">
+                <h6 class="caption-title text-dark">Enhanced Creativity</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/icons/world.gif" alt="Worldly Success" />
+              <div class="caption">
+                <h6 class="caption-title text-dark">Worldly Success</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/icons/calmness.gif" alt="Calmness" />
+              <div class="caption">
+                <h6 class="caption-title text-dark">Deep inner calmness</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+              <img src="img/icons/contentment.gif" alt="Contentment" />
+              <div class="caption">
+                <h6 class="caption-title text-dark">More Contentment</h6>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="knmrBtn">
+              <a href="proven-benefits.html">Know More</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
     <section class="space" id="courses">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section_heading">
-                        <h2>Course</h2>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section_heading">
+              <h2>Course</h2>
             </div>
-
-            <div class="row mt-5">
-                <div class="col-12 col-md-12">
-                    <div class="content">
-                        <h3>Course Structure</h3>
-                        <p>The course is structured in 5 sessions of one and a half hours each and taught over five consecutive days.</p>
-
-                        <p><b>Day 1</b> : It starts with an introduction in order to get an overview of the technique and to see how meditation can help us to be joyful inside and successful outside. </p>
-                        <p>This session is mainly intended to create an ideal ground for proper initiation of the correct practice.</p>
-                        <p><b>Day 2</b> : Practical session to learn the exact technique.</p>
-                        <p><b>Day 3 - 5</b> : These sessions cover following points:</p>
-
-                        <ul>
-                            <li>Validating the practice based on experiences</li>
-                            <li>Checking to ensure that the meditation practice is simple, easy and enjoyable</li>
-                            <li>Ensuring that the participants are gaining maximum benefits </li>
-                            <li>Understanding the concept of stress release. How deep rejuvenating rest gained through meditation allows the nervous system to release deep-rooted stresses which results in availability of maximum mental potential to us </li>
-                            <li>Understanding long term goal of meditation & development of higher states of consciousness gained through regular meditation</li>
-                            <li>Question-answer sessions to cover doubts</li>
-                            <li>Additional guidance to make the practice effective</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-12 mt-4">
-                    <div class="content">
-                        <p>After the course, there are 10 & 30 day follow-up sessions. The follow-ups are designed to provide more knowledge, based on the growing experience of meditation.</p>
-                        <p><b>Please Note</b> : This course is not like 'one size fits all'. As every person is different so the effectiveness of teaching is based upon the individual's experience.</p>
-                        <p>Each session is followed by questionnaires and depending upon their feedbacks, there may be different instructions for different individuals. </p>
-                        <p>Hence, it's a personalized approach. Instruction is divided into the above mentioned follow up sessions and attending all the sessions is important to learn the technique in its utmost perfection.</p>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="row mt-5">
+          <div class="col-12 col-md-12">
+            <div class="content">
+              <h3>Course Structure</h3>
+              <p>
+                The course is structured in 5 sessions of one and a half hours
+                each and taught over five consecutive days.
+              </p>
+
+              <p>
+                <b>Day 1</b> : It starts with an introduction in order to get an
+                overview of the technique and to see how meditation can help us
+                to be joyful inside and successful outside.
+              </p>
+              <p>
+                This session is mainly intended to create an ideal ground for
+                proper initiation of the correct practice.
+              </p>
+              <p>
+                <b>Day 2</b> : Practical session to learn the exact technique.
+              </p>
+              <p><b>Day 3 - 5</b> : These sessions cover following points:</p>
+
+              <ul>
+                <li>Validating the practice based on experiences</li>
+                <li>
+                  Checking to ensure that the meditation practice is simple,
+                  easy and enjoyable
+                </li>
+                <li>
+                  Ensuring that the participants are gaining maximum benefits
+                </li>
+                <li>
+                  Understanding the concept of stress release. How deep
+                  rejuvenating rest gained through meditation allows the nervous
+                  system to release deep-rooted stresses which results in
+                  availability of maximum mental potential to us
+                </li>
+                <li>
+                  Understanding long term goal of meditation & development of
+                  higher states of consciousness gained through regular
+                  meditation
+                </li>
+                <li>Question-answer sessions to cover doubts</li>
+                <li>Additional guidance to make the practice effective</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 mt-4">
+            <div class="content">
+              <p>
+                After the course, there are 10 & 30 day follow-up sessions. The
+                follow-ups are designed to provide more knowledge, based on the
+                growing experience of meditation.
+              </p>
+              <p>
+                <b>Please Note</b> : This course is not like 'one size fits
+                all'. As every person is different so the effectiveness of
+                teaching is based upon the individual's experience.
+              </p>
+              <p>
+                Each session is followed by questionnaires and depending upon
+                their feedbacks, there may be different instructions for
+                different individuals.
+              </p>
+              <p>
+                Hence, it's a personalized approach. Instruction is divided into
+                the above mentioned follow up sessions and attending all the
+                sessions is important to learn the technique in its utmost
+                perfection.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="space" id="Testimonial">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section_heading">
-                        <h2>Testimonial</h2>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section_heading">
+              <h2>Testimonial</h2>
             </div>
-
-            <div class="row mt-5">
-                <div class="col-12">
-                    <div class="testi_wraper">
-                        <div class="testiBox testitems">
-                            <div class="items">
-                                <div class="testiInfo">
-
-                                    <div class="text">
-                                        <p>The mood is better, my perception is sharper, my concentration is much more intense and long-lasting, I deal better with stressful situations, both physically and mentally, I can reduce negative energy and thoughts
-                                            faster, and my well-being has changed completely. </p>
-                                        <h5>--Jo Ann</h5>
-                                        <span>Germany</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="items">
-                                <div class="testiInfo">
-
-                                    <div class="text">
-                                        <p>I've never felt so calm and in tune while meditating! Shakti ji explains various techniques in such a simple manner and provides support throughout the course. It has left me feeling more grounded when practising
-                                            meditation and more at ease with my mind, I couldn't recommend his sessions enough.</p>
-                                        <h5>-- Manisha</h5>
-                                        <span>United Kingdom</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="items">
-                                <div class="testiInfo">
-
-                                    <div class="text">
-                                        <p>My name is Devyani Vohra. I started learning vedic life meditation in July 2021. It's been such a game changer for me. I thoroughly enjoy my quiet time with myself. I find my mind revised and recharged. It allows
-                                            me to focus better on other things when my mind is not cluttered with so many thoughts. I'm happy I made the decision to learn and and to stay regular with my sessions.</p>
-                                        <h5>-- Devyani Vohra</h5>
-                                        <span> India
-                                            </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="items">
-                                <div class="testiInfo">
-
-                                    <div class="text">
-                                        <p>Very amazing journey. I am living with daily meditation practice. All thanks to my teacher Mr Shakti Iyer who is teaching me the importance of journey within and guiding me through this path. A good teacher is really
-                                            important as you progress with a lot of questions.. queries will come and to move further you need good support and Shakti Sir has answered all my questions very patiently.I have experienced a lot of changes
-                                            at emotional, physical and social level. I am more courageous, have grown patience and I am more focused and confident in my doings. Most importantly I am exploring new me or I should say true me.. I could see
-                                            and feel what a tremendous potential we all have .. I have felt that expansion .. that unconditional zone of love and pure energy….Thanks Shakti Sir</p>
-                                        <h5>-- Anjali Malik</h5>
-                                        <span>United Kingdom</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="items">
-                                <div class="testiInfo">
-
-                                    <div class="text">
-                                        <p>Meditation practice has numerous twists and turns. A meditator goes through from being very consistent to falling out of practice during this journey. I have been doing some sort of meditation since 2016, but my
-                                            re-initiation in 2018 with Shakti ji has been a game changer. Shakti ji isn't only someone who teaches, he is forever there to guide you through your journey. Whenever I get stuck or doubtful he is always a
-                                            message away. Don't be fooled by his young age, the man is a master of his craft. Privileged to find my own spiritual coach.</p>
-                                        <h5>--Kailash Menon</h5>
-                                        <span> India</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <div class="testi_wraper">
+              <div class="testiBox testitems">
+                <div class="items">
+                  <div class="testiInfo">
+                    <div class="text">
+                      <p>
+                        The mood is better, my perception is sharper, my
+                        concentration is much more intense and long-lasting, I
+                        deal better with stressful situations, both physically
+                        and mentally, I can reduce negative energy and thoughts
+                        faster, and my well-being has changed completely.
+                      </p>
+                      <h5>--Jo Ann</h5>
+                      <span>Germany</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="testiInfo">
+                    <div class="text">
+                      <p>
+                        I've never felt so calm and in tune while meditating!
+                        Shakti ji explains various techniques in such a simple
+                        manner and provides support throughout the course. It
+                        has left me feeling more grounded when practising
+                        meditation and more at ease with my mind, I couldn't
+                        recommend his sessions enough.
+                      </p>
+                      <h5>-- Manisha</h5>
+                      <span>United Kingdom</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="testiInfo">
+                    <div class="text">
+                      <p>
+                        My name is Devyani Vohra. I started learning vedic life
+                        meditation in July 2021. It's been such a game changer
+                        for me. I thoroughly enjoy my quiet time with myself. I
+                        find my mind revised and recharged. It allows me to
+                        focus better on other things when my mind is not
+                        cluttered with so many thoughts. I'm happy I made the
+                        decision to learn and and to stay regular with my
+                        sessions.
+                      </p>
+                      <h5>-- Devyani Vohra</h5>
+                      <span> India </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="testiInfo">
+                    <div class="text">
+                      <p>
+                        Very amazing journey. I am living with daily meditation
+                        practice. All thanks to my teacher Mr Shakti Iyer who is
+                        teaching me the importance of journey within and guiding
+                        me through this path. A good teacher is really important
+                        as you progress with a lot of questions.. queries will
+                        come and to move further you need good support and
+                        Shakti Sir has answered all my questions very
+                        patiently.I have experienced a lot of changes at
+                        emotional, physical and social level. I am more
+                        courageous, have grown patience and I am more focused
+                        and confident in my doings. Most importantly I am
+                        exploring new me or I should say true me.. I could see
+                        and feel what a tremendous potential we all have .. I
+                        have felt that expansion .. that unconditional zone of
+                        love and pure energy….Thanks Shakti Sir
+                      </p>
+                      <h5>-- Anjali Malik</h5>
+                      <span>United Kingdom</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="items">
+                  <div class="testiInfo">
+                    <div class="text">
+                      <p>
+                        Meditation practice has numerous twists and turns. A
+                        meditator goes through from being very consistent to
+                        falling out of practice during this journey. I have been
+                        doing some sort of meditation since 2016, but my
+                        re-initiation in 2018 with Shakti ji has been a game
+                        changer. Shakti ji isn't only someone who teaches, he is
+                        forever there to guide you through your journey.
+                        Whenever I get stuck or doubtful he is always a message
+                        away. Don't be fooled by his young age, the man is a
+                        master of his craft. Privileged to find my own spiritual
+                        coach.
+                      </p>
+                      <h5>--Kailash Menon</h5>
+                      <span> India</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="space" id="Joincourses">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="courseText">
-                        <h2>Join Our Courses <i class="fa fa-hand-o-right" aria-hidden="true"></i></h2>
-                        <h3>Step Into Your Inherent Peace</h3>
-                    </div>
-                    <div class="courseImg">
-                        <img src="img/meditation1.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="signup_form">
-                        <h4 class="signup_heading"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Enquire Now</h4>
-                        <div class="courseSignup">
-
-                            <form action="mail12.php" method="post" name="frm1">
-                                <input type="hidden" name="act" value="contact_act">
-                                <label for="email">Name</label>
-                                <input type="text" name="your_fname" class="form-control" pattern="^[a-zA-Z0-9,. ]+$" required placeholder="Enter Your Name.">
-
-                                <label for="email">Email</label>
-                                <input type="email" name="your_email" class="form-control" required placeholder="Enter Your Email id">
-
-                                <label for="psw">Phone Number</label>
-                                <input type="text" name="your_phone" class="form-control" pattern="^[0-9]+$" maxlength="10" placeholder="Enter Your Phone No.">
-
-                                <label for="psw-repeat">Course</label>
-                                <select class="form-select" name="course" required>
-                        <option value="">Select</option>
-                            <option value="Meditation Program">Meditation Program</option>
-                            <option value="Advanced Techniques">Advanced Techniques</option>
-                            
-                          </select>
-
-                                <label for="psw">Message</label>
-                                <textarea class="form-control" pattern="^[a-zA-Z0-9,. ]+$" placeholder="Message" name="your_message" required rows="3"></textarea>
-
-                                <input type="submit" value="Submit">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="courseText">
+              <h2>
+                Join Our Courses
+                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+              </h2>
+              <h3>Step Into Your Inherent Peace</h3>
             </div>
+            <div class="courseImg">
+              <img src="img/meditation1.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="signup_form">
+              <h4 class="signup_heading">
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Enquire
+                Now
+              </h4>
+              <div class="courseSignup">
+                <form action="mail12.php" method="post" name="frm1">
+                  <input type="hidden" name="act" value="contact_act" />
+                  <label for="email">Name</label>
+                  <input
+                    type="text"
+                    name="your_fname"
+                    class="form-control"
+                    pattern="^[a-zA-Z0-9,. ]+$"
+                    required
+                    placeholder="Enter Your Name."
+                  />
+
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="your_email"
+                    class="form-control"
+                    required
+                    placeholder="Enter Your Email id"
+                  />
+
+                  <label for="psw">Phone Number</label>
+                  <input
+                    type="text"
+                    name="your_phone"
+                    class="form-control"
+                    pattern="^[0-9]+$"
+                    maxlength="10"
+                    placeholder="Enter Your Phone No."
+                  />
+
+                  <label for="psw-repeat">Course</label>
+                  <select class="form-select" name="course" required>
+                    <option value="">Select</option>
+                    <option value="Meditation Program">
+                      Meditation Program
+                    </option>
+                    <option value="Advanced Techniques">
+                      Advanced Techniques
+                    </option>
+                  </select>
+
+                  <label for="psw">Message</label>
+                  <textarea
+                    class="form-control"
+                    pattern="^[a-zA-Z0-9,. ]+$"
+                    placeholder="Message"
+                    name="your_message"
+                    required
+                    rows="3"
+                  ></textarea>
+
+                  <input type="submit" value="Submit" />
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="space" id="contactus">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-4">
-                    <div class="addBox">
-                        <h3>Contact Us</h3>
-                        <ul>
-                            <li><span class="icons"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                <p>Vedic Life Foundation, 93/22, Laxmi Nagar, Rohtak-Sonepat Road, Rohtak, Haryana</p>
-                            </li>
-                            <li><span class="icons"><i class="fa fa-phone" aria-hidden="true"></i></span><a href="tel:08743915439">(+91)-8743915439</a></li>
-                            <li><span class="icons"><i class="fa fa-envelope" aria-hidden="true"></i></span><a href="mailto:vediclife1008@gmail.com">vediclife1008@gmail.com</a></li>
-                        </ul>
-                        <h5>Connect with us</h5>
-                        <ul class="fscoiclicons">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-8">
-                    <div class="mapBox">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6986.147059286283!2d76.603343!3d28.896163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac01c5a94ce9f7ef!2sVedic%20Life%20Meditation%20Center!5e0!3m2!1sen!2sin!4v1649834853870!5m2!1sen!2sin"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-4">
+            <div class="addBox">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>
+                  <span class="icons"
+                    ><i class="fa fa-map-marker" aria-hidden="true"></i
+                  ></span>
+                  <p>
+                    Vedic Life Foundation, 93/22, Laxmi Nagar, Rohtak-Sonepat
+                    Road, Rohtak, Haryana
+                  </p>
+                </li>
+                <li>
+                  <span class="icons"
+                    ><i class="fa fa-phone" aria-hidden="true"></i></span
+                  ><a href="tel:08743915439">(+91)-8743915439</a>
+                </li>
+                <li>
+                  <span class="icons"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i></span
+                  ><a href="mailto:vediclife1008@gmail.com"
+                    >vediclife1008@gmail.com</a
+                  >
+                </li>
+              </ul>
+              <h5>Connect with us</h5>
+              <ul class="fscoiclicons">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
+          </div>
+          <div class="col-md-12 col-lg-8">
+            <div class="mapBox">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6986.147059286283!2d76.603343!3d28.896163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac01c5a94ce9f7ef!2sVedic%20Life%20Meditation%20Center!5e0!3m2!1sen!2sin!4v1649834853870!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer>
-        <div class="footer_top">
-
-        </div>
-        <div class="footer_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p>Copyright © 2022 Vedic Life Meditation. All rights reserved.</p>
-                    </div>
-                </div>
+      <div class="footer_top"></div>
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>
+                Copyright © 2022 Vedic Life Meditation. All rights reserved.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -416,6 +625,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/app.js"></script>
-</body>
-
+  </body>
 </html>

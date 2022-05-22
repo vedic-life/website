@@ -1,229 +1,411 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     <!--     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
     <title>Meditation - Vedic Life</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div class="topheader">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-9 col-4">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <div class="container-fluid">
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                        </li>
-                                        <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                                <a class="dropdown-item" href="teachers.html">Meet The Teacher</a>
-                                                <a class="dropdown-item" href="inspiration.html">Our Inspiration</a>
-
-                                            </div>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="index.html#courses">Courses</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="index.html#Testimonial">Testimonial</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="index.html#contactus">Contact</a>
-                                        </li>
-                                    </ul>
-                                    <form class="d-flex">
-                                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                                        <button class="search"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                    </form>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-8">
-                        <div class="logo">
-                            <a href="index.html"><img src="img/logo1.png" alt=""></a>
+      <div class="topheader">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-lg-9 col-4">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                  >
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link active"
+                          aria-current="page"
+                          href="index.html"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          id="navbarDropdown"
+                          role="button"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          >About</a
+                        >
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="navbarDropdown"
+                        >
+                          <a class="dropdown-item" href="teachers.html"
+                            >Meet The Teacher</a
+                          >
+                          <a class="dropdown-item" href="inspiration.html"
+                            >Our Inspiration</a
+                          >
                         </div>
-                    </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#courses"
+                          >Courses</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#Testimonial"
+                          >Testimonial</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html#contactus"
+                          >Contact</a
+                        >
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                      <button class="search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                      </button>
+                    </form>
+                  </div>
                 </div>
+              </nav>
             </div>
+            <div class="col-lg-3 col-md-6 col-8">
+              <div class="logo">
+                <a href="index.html"><img src="img/logo1.png" alt="" /></a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
     <!--  breadcrumb starts here -->
 
     <section id="breadcrumbBG">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="brdlists">
-                        <h1>Meditation</h1>
-                        <ul>
-                            <li><a href="index.html">Home</a></li><i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                            <li>Meditation</li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="brdlists">
+              <h1>Meditation</h1>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                <li>Meditation</li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!--  breadcrumb ends here -->
     <section class="space" id="innerpage">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="mediContent">
-                        <h3>How is this meditation so easy? </h3>
-                        <p>There are many misconceptions about meditation, so first of all let us know what this meditation is not</p>
-                        <h4>Popular Misconceptions</h4>
-                        <h5>1. Meditation is concentration</h5>
-                        <p>Concentration is the process of carefully fixing the mind on one particular point for a long time period in order to improve the concentration power. </p>
-                        <p>Well, it has been empirically seen that such an effort of concentration results in strains and fatigue in the mind.</p>
-                        <p>With this tired mind, our worldly activities even get worse.</p>
-                        <p><b>Real Fact-</b> Well, there is a definite relation between concentration and meditation but 'Concentration is the natural result of meditation and not its process'.</p>
-                        <p>This means that after doing correct meditation, whatever work we do, there is 'deep concentration and undivided attention'.</p>
-                        <h5>2. Meditation is contemplation</h5>
-                        <p>Contemplation is the action of looking thoughtfully at something (a problem or philosophical idea) for a long time.</p>
-                        <p><b>Real Fact-</b> Contemplation is only relevant during the assigned task; not during the meditative process.</p>
-                        <p>Correct practice of meditation improves the ability to contemplate.</p>
-                        <p>It is only with the improved faculties of mind that one can have powerful contemplation.</p>
-                        <h5>3. Need to sit with a specific mudra or posture or sitting with erect back</h5>
-                        <p><b>Real Fact-</b> There is no need to sit erect and one needs only a comfortable position. </p>
-                        <p>We can practice it anywhere, even sitting in an office chair!</p>
-                        <h5>4. Environment should be free from noises </h5>
-                        <p> Real Fact- Even the sounds are not a barrier for us. </p>
-                        <p>We can practice anywhere in any environment once when the correct technique has been learnt.</p>
-                        <h5>5. Need to change the lifestyle or adapt a particular tradition</h5>
-                        <p><b>Real Fact- </b> Not required, absolutely not required. </p>
-                        <p>Every individual is unique & expresses things in his or her own way. Meditation indeed enhances such self expressions.</p>
-                        <h5>Now what exactly is this meditation? </h5>
-                        <p>It is a simple, natural and effortless technique that takes our outwardly directed awareness to within, in order to experience a deep restful state.
-                        </p>
-                        <p>It provides deep rest to the mind and the body, thereby allowing the body to throw off deep rooted stresses.
-                        </p>
-                        <p>Thereby it brings a deep blissful awareness and relaxation. This rest results in worldly success in all fields.
-                        </p>
-                        <p>This is the only meditation that's the simpler, the easiest & the most enjoyable in practice devoid of all the misconceptions which are commonly taught in the world today.</p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="mediContent">
+              <h3>How is this meditation so easy?</h3>
+              <p>
+                There are many misconceptions about meditation, so first of all
+                let us know what this meditation is not
+              </p>
+              <h4>Popular Misconceptions</h4>
+              <h5>1. Meditation is concentration</h5>
+              <p>
+                Concentration is the process of carefully fixing the mind on one
+                particular point for a long time period in order to improve the
+                concentration power.
+              </p>
+              <p>
+                Well, it has been empirically seen that such an effort of
+                concentration results in strains and fatigue in the mind.
+              </p>
+              <p>
+                With this tired mind, our worldly activities even get worse.
+              </p>
+              <p>
+                <b>Real Fact-</b> Well, there is a definite relation between
+                concentration and meditation but 'Concentration is the natural
+                result of meditation and not its process'.
+              </p>
+              <p>
+                This means that after doing correct meditation, whatever work we
+                do, there is 'deep concentration and undivided attention'.
+              </p>
+              <h5>2. Meditation is contemplation</h5>
+              <p>
+                Contemplation is the action of looking thoughtfully at something
+                (a problem or philosophical idea) for a long time.
+              </p>
+              <p>
+                <b>Real Fact-</b> Contemplation is only relevant during the
+                assigned task; not during the meditative process.
+              </p>
+              <p>
+                Correct practice of meditation improves the ability to
+                contemplate.
+              </p>
+              <p>
+                It is only with the improved faculties of mind that one can have
+                powerful contemplation.
+              </p>
+              <h5>
+                3. Need to sit with a specific mudra or posture or sitting with
+                erect back
+              </h5>
+              <p>
+                <b>Real Fact-</b> There is no need to sit erect and one needs
+                only a comfortable position.
+              </p>
+              <p>
+                We can practice it anywhere, even sitting in an office chair!
+              </p>
+              <h5>4. Environment should be free from noises</h5>
+              <p>Real Fact- Even the sounds are not a barrier for us.</p>
+              <p>
+                We can practice anywhere in any environment once when the
+                correct technique has been learnt.
+              </p>
+              <h5>
+                5. Need to change the lifestyle or adapt a particular tradition
+              </h5>
+              <p><b>Real Fact- </b> Not required, absolutely not required.</p>
+              <p>
+                Every individual is unique & expresses things in his or her own
+                way. Meditation indeed enhances such self expressions.
+              </p>
+              <h5>Now what exactly is this meditation?</h5>
+              <p>
+                It is a simple, natural and effortless technique that takes our
+                outwardly directed awareness to within, in order to experience a
+                deep restful state.
+              </p>
+              <p>
+                It provides deep rest to the mind and the body, thereby allowing
+                the body to throw off deep rooted stresses.
+              </p>
+              <p>
+                Thereby it brings a deep blissful awareness and relaxation. This
+                rest results in worldly success in all fields.
+              </p>
+              <p>
+                This is the only meditation that's the simpler, the easiest &
+                the most enjoyable in practice devoid of all the misconceptions
+                which are commonly taught in the world today.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="space" id="Joincourses">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="courseText">
-                        <h2>Join Our Courses <i class="fa fa-hand-o-right" aria-hidden="true"></i></h2>
-                        <h3>Step Into Your Inherent Peace</h3>
-                    </div>
-                    <div class="courseImg">
-                        <img src="img/meditation1.png" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-12">
-                    <div class="signup_form">
-                        <h4 class="signup_heading"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Enquire Now</h4>
-                        <div class="courseSignup">
-
-                            <form action="mail12.php" method="post" name="frm1">
-                                <input type="hidden" name="act" value="contact_act">
-                                <label for="email">Name</label>
-                                <input type="text" name="your_fname" class="form-control" pattern="^[a-zA-Z0-9,. ]+$" required placeholder="Enter Your Name.">
-
-                                <label for="email">Email</label>
-                                <input type="email" name="your_email" class="form-control" required placeholder="Enter Your Email id">
-
-                                <label for="psw">Phone Number</label>
-                                <input type="text" name="your_phone" class="form-control" pattern="^[0-9]+$" maxlength="10" placeholder="Enter Your Phone No.">
-
-                                <label for="psw-repeat">Course</label>
-                                <select class="form-select" name="course" required>
-                        <option value="">Select</option>
-                            <option value="Meditation Program">Meditation Program</option>
-                            <option value="Advanced Techniques">Advanced Techniques</option>
-                            
-                          </select>
-
-                                <label for="psw">Message</label>
-                                <textarea class="form-control" pattern="^[a-zA-Z0-9,. ]+$" placeholder="Message" name="your_message" required rows="3"></textarea>
-
-                                <input type="submit" value="Submit">
-                            </form>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="courseText">
+              <h2>
+                Join Our Courses
+                <i class="fa fa-hand-o-right" aria-hidden="true"></i>
+              </h2>
+              <h3>Step Into Your Inherent Peace</h3>
             </div>
+            <div class="courseImg">
+              <img src="img/meditation1.png" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-12">
+            <div class="signup_form">
+              <h4 class="signup_heading">
+                <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Enquire
+                Now
+              </h4>
+              <div class="courseSignup">
+                <form action="mail12.php" method="post" name="frm1">
+                  <input type="hidden" name="act" value="contact_act" />
+                  <label for="email">Name</label>
+                  <input
+                    type="text"
+                    name="your_fname"
+                    class="form-control"
+                    pattern="^[a-zA-Z0-9,. ]+$"
+                    required
+                    placeholder="Enter Your Name."
+                  />
+
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="your_email"
+                    class="form-control"
+                    required
+                    placeholder="Enter Your Email id"
+                  />
+
+                  <label for="psw">Phone Number</label>
+                  <input
+                    type="text"
+                    name="your_phone"
+                    class="form-control"
+                    pattern="^[0-9]+$"
+                    maxlength="10"
+                    placeholder="Enter Your Phone No."
+                  />
+
+                  <label for="psw-repeat">Course</label>
+                  <select class="form-select" name="course" required>
+                    <option value="">Select</option>
+                    <option value="Meditation Program">
+                      Meditation Program
+                    </option>
+                    <option value="Advanced Techniques">
+                      Advanced Techniques
+                    </option>
+                  </select>
+
+                  <label for="psw">Message</label>
+                  <textarea
+                    class="form-control"
+                    pattern="^[a-zA-Z0-9,. ]+$"
+                    placeholder="Message"
+                    name="your_message"
+                    required
+                    rows="3"
+                  ></textarea>
+
+                  <input type="submit" value="Submit" />
+                </form>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="space" id="contactus">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-lg-4">
-                    <div class="addBox">
-                        <h3>Contact Us</h3>
-                        <ul>
-                            <li><span class="icons"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                <p>Vedic Life Foundation, 93/22, Laxmi Nagar, Rohtak-Sonepat Road, Rohtak, Haryana</p>
-                            </li>
-                            <li><span class="icons"><i class="fa fa-phone" aria-hidden="true"></i></span><a href="tel:08743915439">(+91)-8743915439</a></li>
-                            <li><span class="icons"><i class="fa fa-envelope" aria-hidden="true"></i></span><a href="mailto:vediclife1008@gmail.com">vediclife1008@gmail.com</a></li>
-                        </ul>
-                        <h5>Connect with us</h5>
-                        <ul class="fscoiclicons">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-8">
-                    <div class="mapBox">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6986.147059286283!2d76.603343!3d28.896163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac01c5a94ce9f7ef!2sVedic%20Life%20Meditation%20Center!5e0!3m2!1sen!2sin!4v1649834853870!5m2!1sen!2sin"
-                            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-4">
+            <div class="addBox">
+              <h3>Contact Us</h3>
+              <ul>
+                <li>
+                  <span class="icons"
+                    ><i class="fa fa-map-marker" aria-hidden="true"></i
+                  ></span>
+                  <p>
+                    Vedic Life Foundation, 93/22, Laxmi Nagar, Rohtak-Sonepat
+                    Road, Rohtak, Haryana
+                  </p>
+                </li>
+                <li>
+                  <span class="icons"
+                    ><i class="fa fa-phone" aria-hidden="true"></i></span
+                  ><a href="tel:08743915439">(+91)-8743915439</a>
+                </li>
+                <li>
+                  <span class="icons"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i></span
+                  ><a href="mailto:vediclife1008@gmail.com"
+                    >vediclife1008@gmail.com</a
+                  >
+                </li>
+              </ul>
+              <h5>Connect with us</h5>
+              <ul class="fscoiclicons">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-facebook" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
             </div>
+          </div>
+          <div class="col-md-12 col-lg-8">
+            <div class="mapBox">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6986.147059286283!2d76.603343!3d28.896163!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xac01c5a94ce9f7ef!2sVedic%20Life%20Meditation%20Center!5e0!3m2!1sen!2sin!4v1649834853870!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer>
-        <div class="footer_top">
-
-        </div>
-        <div class="footer_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p>Copyright © 2022 Vedic Life Meditation. All rights reserved.</p>
-                    </div>
-                </div>
+      <div class="footer_top"></div>
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>
+                Copyright © 2022 Vedic Life Meditation. All rights reserved.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -231,6 +413,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/app.js"></script>
-</body>
-
+  </body>
 </html>
