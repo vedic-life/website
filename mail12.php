@@ -74,7 +74,7 @@ $headers .= "X-Mailer: PHP/" . phpversion();
 mail($to,$subject,$message, $headers);
 
 }
-header("location:https://www.vedic-life.org/meditation-courses/thank-you.html");
+header("location:https://www.learnm.in/meditation-courses/thank-you.html");
 
 }
 
